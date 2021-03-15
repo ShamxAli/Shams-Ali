@@ -1,0 +1,135 @@
+.blackCl{
+    color: black !important;
+}
+
+.blackBg{
+    background-color: black !important;
+}
+
+.greyBg{
+    background-color: rgb(29, 28, 28) !important;
+}
+
+.greyCl{
+    color: #9c9c9c !important;
+}
+
+.whiteCl{
+    color: rgb(228, 228, 228) !important;
+}
+
+.whiteBg{
+    background-color: white !important;
+}
+
+.greenCl{
+    color: #00b300 !important;
+}
+
+.transparentBg{
+    background-color: transparent !important;
+}
+
+.outlineNone{
+    outline: none !important;
+}
+
+.heading{
+    font-size: 30px !important;
+}
+
+.componentSpaceFromHeading{
+    padding: 30px 0 40px 0;
+}
+
+.tooltip{
+    font-size: 15px !important;
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url("../fonts/Roboto/Roboto-Light.ttf") format("opentype");
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url("../fonts/Roboto/Roboto-Bold.ttf") format("opentype");
+}
+
+.font{
+    /* using in all the main headings */
+    font-family: Roboto-Bold !important;
+}
+
+.fontForText{
+    font-family: Roboto-Light !important;
+}
+
+@media screen and (min-width: 768px) {
+    .heading{
+        font-size: 35px !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .heading{
+        font-size: 40px !important;
+    }
+    .componentSpaceFromHeading{
+        padding: 40px 0 60px 0;
+    }
+    .icon{
+        font-size: 30px !important;
+        margin-left: 20px !important;
+    }
+    .body{
+        font-size: 22px !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .heading{
+        font-size: 45px !important;
+    }
+    .componentSpaceFromHeading{
+        padding: 50px 0 80px 0;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    .heading{
+        font-size: 50px !important;
+    }
+    .componentSpaceFromHeading{
+        padding: 50px 0 100px 0;
+    }
+    .tooltip{
+        font-size: 20px !important;
+    }
+    .icon{
+        font-size: 35px !important;
+        margin-left: 30px !important;
+    }
+    .body{
+        font-size: 25px !important;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .heading{
+        font-size: 90px !important;
+    }
+    .componentSpaceFromHeading{
+        padding: 100px 0 160px 0;
+    }
+    .tooltip{
+        font-size: 35px !important;
+    }
+    .icon{
+        font-size: 75px !important;
+        margin-left: 50px !important;
+    }
+    .body{
+        font-size: 55px !important;
+    }
+}

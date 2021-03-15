@@ -1,0 +1,38 @@
+.root{
+    padding-top: 20px;
+}
+
+.subRoot{
+    padding: 0 25px 0 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .subRoot{
+        padding: 0 35px 0 35px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .subRoot{
+        padding: 0 55px 0 55px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .subRoot{
+        padding: 0 75px 0 75px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .subRoot{
+        padding: 0 90px 0 90px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .root{
+        padding-top: 40px;
+    }
+    .subRoot{
+        padding: 0 110px 0 110px;
+    }
+}

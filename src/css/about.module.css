@@ -1,0 +1,78 @@
+.profileImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: white 3px solid;
+}
+
+.textDiv {
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .imgDiv {
+    width: 250px !important;
+  }
+  .textDiv {
+    width: 400px !important;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .profileImage {
+    width: 300px;
+    height: 300px;
+  }
+  .imgDiv {
+    width: 350px !important;
+  }
+  .textDiv {
+    width: 450px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .imgDiv {
+    width: 400px !important;
+  }
+  .textDiv {
+    width: 550px !important;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .profileImage {
+    width: 350px;
+    height: 350px;
+  }
+  .imgDiv {
+    width: 500px !important;
+  }
+  .textDiv {
+    width: 550px !important;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .imgDiv {
+    width: 500px !important;
+  }
+  .textDiv {
+    width: 950px !important;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .profileImage {
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+  }
+  .imgDiv {
+    width: 900px !important;
+  }
+  .textDiv {
+    width: 1150px !important;
+  }
+}

@@ -1,0 +1,24 @@
+.about {
+  margin-top: 75px;
+}
+
+.aboutImage {
+  width: 100%;
+  max-width: 576px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.textDiv {
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .aboutImage {
+    width: 80%;
+    max-width: 80%;
+  }
+  .textDiv {
+    width: 80% !important;
+  }
+}

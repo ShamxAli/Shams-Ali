@@ -1,0 +1,95 @@
+.card{
+    max-width: 320px !important;
+}
+.cardImage{
+    height: 300px !important;
+}
+
+.projectsDiv{
+    max-width: 320px;
+}
+
+.cardsm{
+    margin-bottom: 30px !important;
+}
+
+@media screen and (min-width: 768px) {
+    .projectsDiv{
+        width: 680px;
+        max-width: 100%;
+    }
+    .cardsm{
+        margin-bottom: 0 !important;
+    }
+    .cardmdBottom{
+        margin-bottom: 40px !important;
+    }
+    .cardmdright{
+        margin-right: 40px !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .projectsDiv{
+        width: 700px;
+    }
+    .cardHeading{
+        font-size: 25px !important;
+    }
+    .cardSubHeading{
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .projectsDiv{
+        width: 1050px;
+    }
+    .cardmdBottom{
+        margin-bottom: 0 !important;
+    }
+    .cardmdright{
+        margin-right: 0 !important;
+    }
+    .cardlgBottom{
+        margin-bottom: 45px !important;
+    }
+    .cardlgY{
+        margin-right: 45px !important;
+        margin-left: 45px !important;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .cardHeading{
+        font-size: 30px !important;
+    }
+    .cardSubHeading{
+        font-size: 22px !important;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .projectsDiv{
+        width: 2500px;
+    }
+    .card{
+        max-width: 700px !important;
+    }
+    .cardImage{
+        height: 700px !important;
+    }
+    .cardHeading{
+        font-size: 60px !important;
+    }
+    .cardSubHeading{
+        font-size: 45px !important;
+    }
+    .cardlgBottom{
+        margin-bottom: 100px !important;
+    }
+    .cardlgY{
+        margin-right: 100px !important;
+        margin-left: 100px !important;
+    }
+}

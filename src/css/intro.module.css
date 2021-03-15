@@ -1,0 +1,80 @@
+.intro{
+    padding: 70px 0 40px 0;
+}
+.h6Heading{
+    font-size: 32px !important;
+}
+.dot{
+    font-size: 90px;
+    line-height: 0;
+    position: relative;
+    top: -3px;    
+}
+.subHeading{
+    font-size: 15px !important;
+}
+.textDiv{
+    max-width: 500px;
+}
+.iconButton{
+    padding: 12px 17px 12px 0 !important;
+}
+.iconDiv{
+    margin-top: 30px;
+}
+@media screen and (min-width: 992px) {
+    .intro{
+        padding: 100px 0 60px 0;
+    }
+    .h6Heading{
+        font-size: 38px !important;
+    }
+    .subHeading{
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .intro{
+        padding: 120px 0 80px 0;
+    }
+    .textDiv{
+        max-width: 600px;
+    }
+    .h6Heading{
+        font-size: 45px !important;
+    }
+    .subHeading{
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .intro{
+        padding: 150px 0 100px 0;
+    }
+    .textDiv{
+        max-width: 650px;
+    }
+    .h6Heading{
+        font-size: 48px !important;
+    }
+    .subHeading{
+        font-size: 22px !important;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .intro{
+        padding: 250px 0 160px 0;
+    }
+    .textDiv{
+        max-width: 1200px;
+    }
+    .h6Heading{
+        font-size: 95px !important;
+    }
+    .subHeading{
+        font-size: 45px !important;
+    }
+}

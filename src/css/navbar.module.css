@@ -1,0 +1,79 @@
+.name{
+    margin: 6.5px 0 0 0 !important;
+}
+
+.drawerRoot{
+    width: 250px !important;
+}
+
+.drawerButton{
+    margin: 0 -10px 0 0 !important;
+}
+.links{
+    letter-spacing: 3px !important;
+}
+@media screen and (min-width: 768px) {
+    .name{
+        margin: 6.5px 0 0 0 !important;
+    }
+    .drawerButton{
+        margin: 0 15px 0 0 !important;
+    }
+}
+@media screen and (min-width: 992px) {
+    .name{
+        margin: 6px 0 0 0 !important;
+        font-size: 21px !important;
+    }
+    .linksDiv{
+        margin-top: 6.5px;
+    }
+    .links{
+        margin-right: 10px !important;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .linksDiv{
+        margin: 5px 0 0 0 !important;
+    }
+    .links{
+        font-size: 15px !important;
+        margin-right: 20px !important;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .name{
+        margin: 6px 0 0 0 !important;
+        font-size: 25px !important;
+    }
+    .linksDiv{
+        margin: 5.5px 0 0 0 !important;
+    } 
+    .links{
+        font-size: 18px !important;
+        margin-right: 25px !important;
+        letter-spacing: 5px !important;
+    }
+    .icon{
+        font-size: 2.1rem !important;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .name{
+        margin: 6px 0 0 0 !important;
+        font-size: 50px !important;
+    }
+    .linksDiv{
+        margin: 16px 0 0 0 !important;
+    }
+    .icon{
+        font-size: 3.5rem !important;
+    }
+    .links{
+        font-size: 30px !important;
+        margin-right: 70px !important;
+        letter-spacing: 7px !important;
+    }
+}
