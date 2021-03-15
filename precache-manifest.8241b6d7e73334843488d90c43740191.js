@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dbf894359daeaaaa55dbb08efd66eb2f",
+    "revision": "0625d227a646d49317caa70c4af83bc7",
     "url": "/Shams-Ali/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Shams-Ali/static/css/2.8d3f7698.chunk.css"
   },
   {
-    "revision": "2a720bdcaffeb7bc22fb",
+    "revision": "f56174edbd1073098743",
     "url": "/Shams-Ali/static/css/main.f38f4f81.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Shams-Ali/static/js/2.f843d766.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2a720bdcaffeb7bc22fb",
-    "url": "/Shams-Ali/static/js/main.a68d6944.chunk.js"
+    "revision": "f56174edbd1073098743",
+    "url": "/Shams-Ali/static/js/main.e94e6cc5.chunk.js"
   },
   {
     "revision": "2fca3fea667260e21ce7",
